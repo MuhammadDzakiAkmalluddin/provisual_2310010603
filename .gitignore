@@ -1,24 +1,7 @@
-# Python virtual env
-venv/
-.env/
-__pycache__/
 *.pyc
-*.pyo
-
-# Qt / build files
-build*/
-*.o
-*.obj
-*.dll
-*.exe
-*.lib
-*.user
-*.pro.user
-*.qbs.user
-*.autosave
-
-# IDE settings
+__pycache__/
+.env
+venv/
 .vscode/
-.idea/
-.DS_Store
-Thumbs.db
+.qtcreator/
+*.db

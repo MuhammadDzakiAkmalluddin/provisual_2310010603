@@ -47,7 +47,7 @@ class Ui_Form(object):
         self.btnUbah.setGeometry(QRect(10, 420, 71, 31))
         self.formLayoutWidget = QWidget(Form)
         self.formLayoutWidget.setObjectName(u"formLayoutWidget")
-        self.formLayoutWidget.setGeometry(QRect(10, 20, 571, 184))
+        self.formLayoutWidget.setGeometry(QRect(10, 20, 571, 171))
         self.formLayout = QFormLayout(self.formLayoutWidget)
         self.formLayout.setObjectName(u"formLayout")
         self.formLayout.setContentsMargins(0, 0, 0, 0)
@@ -107,6 +107,9 @@ class Ui_Form(object):
         self.editCari = QLineEdit(Form)
         self.editCari.setObjectName(u"editCari")
         self.editCari.setGeometry(QRect(10, 210, 571, 28))
+        self.btnPrint = QPushButton(Form)
+        self.btnPrint.setObjectName(u"btnPrint")
+        self.btnPrint.setGeometry(QRect(290, 420, 71, 31))
 
         self.retranslateUi(Form)
 
@@ -133,5 +136,6 @@ class Ui_Form(object):
         self.telpLabel.setText(QCoreApplication.translate("Form", u"Tanggal", None))
         self.emailLabel.setText(QCoreApplication.translate("Form", u"Lokasi Penyimpanan", None))
         self.btnHapus.setText(QCoreApplication.translate("Form", u"Hapus", None))
+        self.btnPrint.setText(QCoreApplication.translate("Form", u"Print", None))
     # retranslateUi
 

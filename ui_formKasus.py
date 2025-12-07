@@ -107,6 +107,9 @@ class Ui_Form(object):
         self.editCari = QLineEdit(Form)
         self.editCari.setObjectName(u"editCari")
         self.editCari.setGeometry(QRect(10, 350, 571, 28))
+        self.btnPrint = QPushButton(Form)
+        self.btnPrint.setObjectName(u"btnPrint")
+        self.btnPrint.setGeometry(QRect(310, 570, 71, 31))
 
         self.retranslateUi(Form)
 
@@ -133,5 +136,6 @@ class Ui_Form(object):
         ___qtablewidgetitem3.setText(QCoreApplication.translate("Form", u"Uraian", None));
         ___qtablewidgetitem4 = self.tabelKasus.horizontalHeaderItem(4)
         ___qtablewidgetitem4.setText(QCoreApplication.translate("Form", u" Tanggal Masuk", None));
+        self.btnPrint.setText(QCoreApplication.translate("Form", u"Print", None))
     # retranslateUi
 

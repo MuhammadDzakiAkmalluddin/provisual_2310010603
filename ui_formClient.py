@@ -107,6 +107,9 @@ class Ui_Form(object):
         self.editCari = QLineEdit(Form)
         self.editCari.setObjectName(u"editCari")
         self.editCari.setGeometry(QRect(10, 190, 591, 28))
+        self.btnPrint = QPushButton(Form)
+        self.btnPrint.setObjectName(u"btnPrint")
+        self.btnPrint.setGeometry(QRect(300, 410, 71, 31))
 
         self.retranslateUi(Form)
 
@@ -133,5 +136,6 @@ class Ui_Form(object):
         self.emailLabel.setText(QCoreApplication.translate("Form", u"Email", None))
         self.btnUbah.setText(QCoreApplication.translate("Form", u"Ubah", None))
         self.btnSimpan.setText(QCoreApplication.translate("Form", u"Simpan", None))
+        self.btnPrint.setText(QCoreApplication.translate("Form", u"Print", None))
     # retranslateUi
 
